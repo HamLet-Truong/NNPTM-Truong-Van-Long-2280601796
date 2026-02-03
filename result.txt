@@ -1,0 +1,138 @@
+﻿--- Cau 2: Danh sach san pham khoi tao ---
+[
+  Product {
+    id: 'P01',
+    name: 'iPhone 15 Pro Max',
+    price: 34000000,
+    quantity: 10,
+    category: 'Smartphones',
+    isAvailable: true
+  },
+  Product {
+    id: 'P02',
+    name: 'Samsung Galaxy S24 Ultra',
+    price: 29000000,
+    quantity: 5,
+    category: 'Smartphones',
+    isAvailable: true
+  },
+  Product {
+    id: 'P03',
+    name: 'AirPods Pro 2',
+    price: 6000000,
+    quantity: 0,
+    category: 'Accessories',
+    isAvailable: true
+  },
+  Product {
+    id: 'P04',
+    name: 'MacBook Pro M3',
+    price: 45000000,
+    quantity: 3,
+    category: 'Laptops',
+    isAvailable: true
+  },
+  Product {
+    id: 'P05',
+    name: 'Apple Watch Series 9',
+    price: 11000000,
+    quantity: 8,
+    category: 'Accessories',
+    isAvailable: true
+  },
+  Product {
+    id: 'P06',
+    name: 'Sony WH-1000XM5',
+    price: 8000000,
+    quantity: 15,
+    category: 'Accessories',
+    isAvailable: false
+  }
+]
+
+--- Cau 3: Danh sach ten va gia san pham ---
+[
+  { name: 'iPhone 15 Pro Max', price: 34000000 },
+  { name: 'Samsung Galaxy S24 Ultra', price: 29000000 },
+  { name: 'AirPods Pro 2', price: 6000000 },
+  { name: 'MacBook Pro M3', price: 45000000 },
+  { name: 'Apple Watch Series 9', price: 11000000 },
+  { name: 'Sony WH-1000XM5', price: 8000000 }
+]
+
+--- Cau 4: San pham con hang trong kho ---
+[
+  Product {
+    id: 'P01',
+    name: 'iPhone 15 Pro Max',
+    price: 34000000,
+    quantity: 10,
+    category: 'Smartphones',
+    isAvailable: true
+  },
+  Product {
+    id: 'P02',
+    name: 'Samsung Galaxy S24 Ultra',
+    price: 29000000,
+    quantity: 5,
+    category: 'Smartphones',
+    isAvailable: true
+  },
+  Product {
+    id: 'P04',
+    name: 'MacBook Pro M3',
+    price: 45000000,
+    quantity: 3,
+    category: 'Laptops',
+    isAvailable: true
+  },
+  Product {
+    id: 'P05',
+    name: 'Apple Watch Series 9',
+    price: 11000000,
+    quantity: 8,
+    category: 'Accessories',
+    isAvailable: true
+  },
+  Product {
+    id: 'P06',
+    name: 'Sony WH-1000XM5',
+    price: 8000000,
+    quantity: 15,
+    category: 'Accessories',
+    isAvailable: false
+  }
+]
+
+--- Cau 5: Co san pham tren 30 trieu khong? ---
+Co
+
+--- Cau 6: Tat ca Accessories co dang duoc ban khong? ---
+Khong
+
+--- Cau 7: Tong gia tri kho hang ---
+828.000.000 VND
+
+--- Cau 8: Thong tin san pham (for...of) ---
+iPhone 15 Pro Max - Smartphones - Dang ban
+Samsung Galaxy S24 Ultra - Smartphones - Dang ban
+AirPods Pro 2 - Accessories - Dang ban
+MacBook Pro M3 - Laptops - Dang ban
+Apple Watch Series 9 - Accessories - Dang ban
+Sony WH-1000XM5 - Accessories - Ngung ban
+
+--- Cau 9: Thuoc tinh va gia tri san pham dau tien (for...in) ---
+id: P01
+name: iPhone 15 Pro Max
+price: 34000000
+quantity: 10
+category: Smartphones
+isAvailable: true
+
+--- Cau 10: Ten cac san pham dang ban va con hang ---
+[
+  'iPhone 15 Pro Max',
+  'Samsung Galaxy S24 Ultra',
+  'MacBook Pro M3',
+  'Apple Watch Series 9'
+]
